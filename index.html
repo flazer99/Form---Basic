@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="script.js">
+
+  </script>
+</head>
+
+<body>
+
+  <div class="main-form">
+    <h1 style = "font-weight: 900;">Tell us about your home.</h1>
+    <p>
+      <h3 style = "font-weight: 900;">Address</h3>
+      <h5 style = "font-weight: 900;"> YOUR INFORMATION IS PRIVATE</h5>
+    </p>
+    <form class="" action="index.html" method="post">
+      <label class="labels" for="address">Address</label><br>
+      <input id="address" class="labels btn-block" type="text" name="" value=""><br>
+      <label class="labels" for="address2">Address 2</label><br>
+      <input id="address" class="labels btn-block" type="text" name="" value=""><br>
+
+      <div class="row">
+        <div class="col">
+          <label class="labels2" for="city">City</label><br>
+          <input id="city" type="text" class="btn-block" name="" value="">
+        </div>
+        <div class="col">
+          <label class="labels2" for="state">State</label><br>
+          <input id="state" type="text" class="btn-block" name="" value="">
+        </div>
+        <div class="col">
+          <label class="labels2" for="Zip Code">Zip Code</label><br>
+          <input id="zipcode" type="text" class="btn-block" name="" value="">
+        </div>
+      </div>
+    </form>
+    <hr class="line">
+    <p>
+      <h3 style = "font-weight: 900;">Bed & Bath</h3>
+      <h5 style = "font-weight: 900;"> WHAT IS YOUR HOME LIKE ?</h5>
+    </p>
+    <form class="" action="index.html" method="post">
+      <div class="row">
+        <div class="col">
+          <label for="">Home Type</label><br>
+          <select class="btn-block">
+            <option label="House"></option>
+            <option label="Villa"></option>
+            <option label="Mansion"></option>
+            <option label="Apartments"></option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="">Room Type</label><br>
+          <select class="btn-block">
+            <option label="Furnished"></option>
+            <option label="Not Furnished"></option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="">Bedrooms</label><br>
+          <select class="btn-block">
+            <option label="1 BHK"></option>
+            <option label="2 BHK"></option>
+            <option label="3 BHK"></option>
+            <option label="4 BHK"></option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="">Bathrooms</label><br>
+          <select class="btn-block">
+            <option label="1"></option>
+            <option label="2"></option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <label for="">King</label><br>
+          <select class="btn-block">
+            <option label="0"></option>
+            <option label="1"></option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="">Queen</label><br>
+          <select class="btn-block">
+            <option label="0"></option>
+            <option label="1"></option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="">Full</label><br>
+          <select class="btn-block">
+            <option label="0"></option>
+            <option label="1"></option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="">Twin</label><br>
+          <select class="btn-block">
+            <option label="0"></option>
+            <option label="1"></option>
+          </select>
+        </div>
+      </div>
+    </form>
+  <button type="button" class="btn btn-outline-danger btn-lg btn-block" onclick="Validation()">Sign Me Up !</button>
+
+
+
+  </div>
+</body>
+
+</html>

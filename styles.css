@@ -1,0 +1,37 @@
+.main-form{
+  margin: 10%;
+  font-family: 'Montserrat', sans-serif;
+  border: dashed;
+  border-color: #66BFBF;
+  padding: 4%;
+}
+
+h3{
+    color: #66BFBF;
+    display: inline;
+}
+
+h5{
+  display: inline;
+  font-weight: 600;
+}
+
+.line{
+  line-height: 3;
+  border: 0.08rem dashed;
+  color: #66BFBF;
+}
+
+.row{
+  line-height: 2;
+  margin-bottom: 2%;
+}
+
+.submit{
+  width: 100%;
+  text-align: center;
+}
+
+.btn{
+  margin-top: 2%;
+}
