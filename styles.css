@@ -11,6 +11,9 @@ h3{
     display: inline;
 }
 
+h1:hover{
+  color:#66BFBF;
+}
 h5{
   display: inline;
   font-weight: 600;
@@ -34,4 +37,9 @@ h5{
 
 .btn{
   margin-top: 2%;
+}
+
+.footer{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
